@@ -7,7 +7,5 @@ print(34*5 - 1.0/2*9.81*5**2)
 v0 = 34
 g = 9.81
 t = 5
-y =v0*t -1.0/2*g*t**2
+y = v0 * t - 1.0 / 2 * g * t ** 2
 print(y)
-print("Sirve o no sirve")
-print ("Algo mas")
