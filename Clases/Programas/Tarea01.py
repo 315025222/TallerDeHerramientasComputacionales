@@ -2,7 +2,6 @@
 # Problema propio.
 # Lanzas una pelota verticalmente desde el techo de un edificio alto en el borde de este. La bola deja tu mano a una
 # velocidad de 15m/s. Encuentra la posicion y la velocidad de la bola 1 segundo y 4 segundos despues.
-
 # Primero resolvemos para el tiempo de 1 segundo.
 v0 = 15
 t = 1
