@@ -9,7 +9,7 @@ print("la cadena es  ' %s ' " % (s))
 
 
 def posicion(t, v0):
-    y = v0 * t - 1.0 / 2 * g * t ** 2
+    y = v0 * t - 1.0 / 2 * 9.81 * t ** 2
     return y
 
 
