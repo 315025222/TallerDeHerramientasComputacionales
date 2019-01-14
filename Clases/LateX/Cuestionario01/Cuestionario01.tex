@@ -1,0 +1,58 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\title{Cuestionario 01}
+\author{Carlos Emiliano Sandoval Amador \\ 315025222}
+\date{14 de enero de 2019}
+\begin{document}
+	\maketitle
+	\begin{enumerate}
+		\item Dé tres sistemas operativos. \\ Linux, ¡OS y Windows.
+		\item Dé dos distribuciones de Linux. \\ Ubuntu y Fedora.
+		\item ¿Cuál es el lenguaje de programación que usamos en el curso? \\ Python.
+		\item ¿Cuál es la característica principal de Linux? \\ Es open source.
+		\item ¿Qué es un shell? \\ Un interprete que nos permite utilizar los servicios del sistema operativo. En el caso de Linux caso ese shell es un intérprete de comandos llamado bash.
+		\item ¿Para qué sirve ls? \\ El comando ls sirve para mostrar los directorios y archivos contenidos en el directorio que le indiques. Si no le indicas un directorio, te mostrará el contenido del directorio en el que estés parado. \\ Utilizando ls -a verás una lista de todos los archivos incluidos los archivos ocultos.
+		\item ¿Para qué sirve cd? \\ Con el comando cd puedes moverte a directorios que estén contenidos en el directorio en el que te encuentras. Si no especificas un directorio cd te regresará al directorio home, este contiene a todos los demás directorios. Con cd .. puedes moverte al directorio que contiene al directorio en el que te encuentras.
+		\item ¿Para qué sirve man? \\ Muestra el manual del comando que desees, de esta forma puedes aprender a utilizarlos o descubrir funciones que antes no conocias.
+		\item ¿Para qué sirve mkdir? \\ Crea un nuevo directorio contenido en el directorio en el que te encuentres. Utilizando la extensión -p puedes crear directorios anidados.
+		\item ¿Para qué sirve rmdir? \\ Elimina un directorio contenido en el directorio en el que te encuentres siempre y cuando este esté vacío.
+		\item ¿Para qué sirve history? \\ Muestra una lista con los comandos usados en la última sesión.
+		\item ¿Para qué sirve touch? \\ Con el comando touch puedes crear un archivo contenido en el directorio en el que estés. Solo tienes que escribir touch seguido del nombre del archivo que deseas crear.
+		\item ¿Para qué sirve less? \\ El comando less muestra el contenido de un archivo. Si el archivo es binario el contenido del archivo mostrado por less será imposible de entender por el ser humano.
+		\item ¿Cómo entrar a vi? \\ Tenemos que escribir vi en la consola seguido de el nombre del archivo, si el archivo no existe vi creará uno nuevo con ese nombre.
+		\item ¿Cómo escribimos en vi? \\ Apretando la tecla i.
+		\item ¿Cómo guardamos lo que escribimos? \\ Presionando :w.
+		\item ¿Cómo salimos? \\ Presionando :q.
+		\item ¿Cómo salimos a la fuerza? \\ Presionando :q!.
+		\item ¿Qué es git? \\ Git es un software de control de versiones pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.
+		\item ¿Qué es un repositorio? \\ El lugar donde se guardan estos archivos y se notifican los cambios ejercidos sobre ellos.
+		\item ¿Qué hace init? \\ Con él podemos crear un nuevo repositorio, el cuál se visualizará como un directorio en nuestra computadora. Para usarlo tenemos que escribir \textbf{git init} seguido del nombre del repositorio.
+		\item ¿Qué hace clone? \\ Sirve para copiar un repositorio que esté en el sitio web de github, para utilizarlo hay que escribir \textbf{git init} seguido del url del repositorio que queremos copiar. Si ese repositorio no es nuestro no podremos subir a la web las modificaciones que le hagamos.
+		\item ¿Qué hace config --global? \\ Este comando sirve para guardar nuestro nombre de usuario y correo de github para operaciones posteriores. Para utilizarlo escribimos \textbf{git config --global user.name} seguido de nuestro nombre de usuario entre comillas. Para el correo escribimos \textbf{git config --global user.mail} seguido de nuestro correo entre comillas.
+		\item ¿Qué hace add? \\ Coloca los archivos nuevos donde corresponden. Para usarlos hay que poner \textbf{git add} seguido del documento que queremos colocar. para colocar todos los archivos podemos usar \textbf{git add *}.
+		\item ¿Qué hace commit? \\ Sirve para guradar y notificar los cambios hechos a los archivos. Es más efectivo utilizar \textbf{git commit -m} seguido de un mensaje entre comillas que notifique los cambios hechos a los archivos.
+		\item ¿Qué hace push? \\ Con push podemos subir a github todos los cambios hechos a los archivos una vez que hayamos hecho utilizado config, add y commit.
+		\item ¿Qué hace pull? \\ Este comando sirve para bajar actualizar un repositorio cuya versión más actual se encuentra en github.
+		\item ¿Cómo podemos imprimir en python? \\ Utilizando la función \textbf{print()}, solo tenemos que ingresar adentro de los paréntesis el tipo de dato que queramos imprimir, es decir, string, entero, flotante, lista o tupla.
+		\item ¿Cómo asignamos un valor a una variable? \\ Utilizando \textbf{=}.
+		\item ¿Cómo sumamos? \\ Utilizando \textbf{+}.
+		\item ¿Cómo restamos? \\ Utilizando \textbf{-}.
+		\item ¿Cómo multiplicamos? \\ Utilizando \textbf{*}.
+		\item ¿Cómo dividimos? \\ Utilizando \textbf{/}.
+		\item ¿Cómo elevamos a una potencia? \\ Utilizando \textbf{**}.
+		\item ¿Cómo hacemos un string? \\ Utilizamos las comillas "" y dentro ponemos la cadena de texto que deseamos.
+		\item ¿Cómo agregamos datos a un string? \\ Para cada dato que ingresemos a la cadena de texto vamos a necesitar un caracter de \% seguido de una letra que indica el tipo de dato que queremos ingresar. Estas letras están asignadas de la siguiente manera.
+		\begin{enumerate}
+			\item g y f para flotantes.
+			\item E y e para flotantes con notación científica.
+			\item d para enteros.
+			\item s para strings.
+		\end{enumerate}
+		\item ¿Cómo definimos una función en python? \\ Para definir una función tenemos que utilizar la palabra reservada def seguida del nombre de la función y unos paréntesis dentro de los cuáles están los parámetros de la función.
+	\end{enumerate}
+\end{document}

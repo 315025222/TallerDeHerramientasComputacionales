@@ -1,0 +1,37 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\title{Bitacora 03}
+\author{Carlos Emiliano Sandoval Amador \\ 315025222}
+\date{09 de enero de 2019}
+
+
+\begin{document}
+	\maketitle
+	\section{vim}
+	El editor de textos predeterminado de fedora es vim, con este podemos visualizar y modificar archivos de texto, para utilizarlo solo tenemos que escribir vi en la consola seguido de el nombre del archivo, si el archivo no existe vi creará uno nuevo con ese nombre.\\ \\ Al entrar el editor se encuentra en modo lectura y para escribir hay que presionar la tecla \textbf{i}. Una vez que hayamos terminado de escribir podemos salir del modo escritura presionando \textbf{esc}, esto nos llevará de regreso al modo lectura.\\ \\ Si queremos guardar lo que escribimos tenemos que escribir \textbf{:w} y para salir del editor \textbf{:q}, sin embargo si queremos salir sin antes haber guardado lo que escribimos se producirá un error. Para salir de cualquier forma podemos escribir \textbf{:q!}.
+	\section{Git}
+	{Git es un software de control de versiones pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. El lugar donde se guardan estos archivos y se notifican los cambios ejercidos sobre ellos se llama repositorio.}
+	{Para utilizar git tenemos que escribir git en la consola seguido del comando que queramos ejecutar, los comandos de git son:}
+	\subsection{init}
+	{Con él podemos crear un nuevo repositorio, el cuál se visualizará como un directorio en nuestra computadora. Para usarlo tenemos que escribir \textbf{git init} seguido del nombre del repositorio.}
+	\subsection{clone}
+	{Sirve para copiar un repositorio que esté en el sitio web de github, para utilizarlo hay que escribir \textbf{git init} seguido del url del repositorio que queremos copiar. Si ese repositorio no es nuestro no podremos subir a la web las modificaciones que le hagamos.}
+	\subsection{config --global}
+	{Este comando sirve para guardar nuestro nombre de usuario y correo de github para operaciones posteriores. Para utilizarlo escribimos \textbf{git config --global user.name} seguido de nuestro nombre de usuario entre comillas. Para el correo escribimos \textbf{git config --global user.mail} seguido de nuestro correo entre comillas.}
+	\subsection{add}
+	{Coloca los archivos nuevos donde corresponden. Para usarlos hay que poner \textbf{git add} seguido del documento que queremos colocar. para colocar todos los archivos podemos usar \textbf{git add *}.}
+	\subsection{commit}
+	{Sirve para guradar y notificar los cambios hechos a los archivos. Es más efectivo utilizar \textbf{git commit -m} seguido de un mensaje entre comillas que notifique los cambios hechos a los archivos.}
+	\subsection{push}
+	{Con push podemos subir a github todos los cambios hechos a los archivos una vez que hayamos hecho utilizado config, add y commit.}
+	\subsection{pull}
+	{Este comando sirve para bajar actualizar un repositorio cuya versión más actual se encuentra en github.}
+	
+
+		
+\end{document}
