@@ -40,3 +40,4 @@ def raiz1(x):
     return b
 
 
+print(raiz1(0))
