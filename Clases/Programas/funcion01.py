@@ -31,15 +31,12 @@ def raiz1(x):
     h = x
     b = 1.0
     e = 0.0001
-    z = 0
+    i = 0
     while vabsoluto(b - h) > e:
-        z += 1
+        i += 1
         h = (b + h)/2
         b = x/h
+    print("Hice la operación " + str(i) + " veces")
+    return b
 
-    return [x, b]
 
-
-lista = raiz1(9)
-
-print("Hice la operación " + str(lista[0]) + " veces y la raíz vale " + str(lista[1]))
