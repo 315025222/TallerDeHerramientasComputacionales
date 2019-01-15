@@ -1,4 +1,5 @@
 def ulam(x):
+    x = float(x)
     if x < 1 or x.is_integer() == False:
         print("El número %g no es positivo o no es entero" % x)
     else:
