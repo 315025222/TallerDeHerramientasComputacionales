@@ -1,0 +1,1 @@
+#Calcular el promedio de 10 datos
