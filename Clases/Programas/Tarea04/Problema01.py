@@ -18,8 +18,6 @@ def mcd(x, y):
     divx = divisores(x)
     divy = divisores(y)
     longx = len(divx)
-    print(divx)
-    print(divy)
     longy = len(divy)
     lista = []
 
@@ -30,7 +28,6 @@ def mcd(x, y):
 
     lista.sort()
     mayor = lista[len(lista) - 1]
-    print(lista)
     return mayor
 
 
