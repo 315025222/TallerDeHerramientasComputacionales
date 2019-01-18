@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 JAN 2019 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 JAN 2019 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -565,20 +565,21 @@ LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 3985 strings out of 492995
- 51719 string characters out of 6132704
+ 3986 strings out of 492995
+ 51727 string characters out of 6132704
  130805 words of memory out of 5000000
- 7491 multiletter control sequences out of 15000+600000
+ 7492 multiletter control sequences out of 15000+600000
  9020 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,35p,411b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Cuestionario02.pdf (3 pages, 42207 bytes).
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Cuestionario02.pdf (3 pages, 49824 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 30 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
