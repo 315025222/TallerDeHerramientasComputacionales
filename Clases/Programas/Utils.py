@@ -1,4 +1,4 @@
-def rangeF(a, b, c):
+def rangef(a, b, c):
     lista = []
     d = a
     while d < b:
@@ -7,5 +7,5 @@ def rangeF(a, b, c):
     return lista
 
 
-x = rangeF(-30, -20, 3.4)
+x = rangef(-30, -20, 3.4)
 print(x)

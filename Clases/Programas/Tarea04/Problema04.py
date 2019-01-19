@@ -14,5 +14,3 @@ def Fib(n):
             x1 = guardador
         return x2
 
-
-

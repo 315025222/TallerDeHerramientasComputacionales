@@ -1,18 +1,18 @@
 # Sucesión de Fibonacci hasta el n-ésimo término
 def Fib(n):
-    x1 = 1
-    x2 = 1
+    lista = [1, 1]
+
     if n == 1:
-        return x1
+        return lista[0]
     elif n == 2:
-        return x2
+        return lista[1]
     else:
         while n > 2:
             n -= 1
-            guardador = x2
-            x2 = x1 + x2
-            x1 = guardador
-        return x2
+            lista.append(lista[len(lista) - 2] + lista[len(lista) - 1])
+        print(lista)
+        return lista[len(lista) - 1]
+
 
 
 
