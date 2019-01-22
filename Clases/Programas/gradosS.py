@@ -58,3 +58,5 @@ for c, f in zip(gradosC, gradosF):
 
 s = [[c, f] for c, f in zip(gradosC, gradosF)]
 print(s)
+print(s[3:])
+
