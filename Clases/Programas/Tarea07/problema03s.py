@@ -1,0 +1,11 @@
+from Tarea07.problema03 import primo
+print(primo(1))
+print(primo(2))
+print(primo(3))
+print(primo(4))
+print(primo(5))
+print(primo(6))
+print(primo(7))
+print(primo(8))
+print(primo(9))
+print(primo(97))
