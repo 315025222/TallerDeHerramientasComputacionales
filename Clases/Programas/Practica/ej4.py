@@ -1,4 +1,13 @@
-def cuadranteLateral(x):
+def rangef(a, b, c):
+    lista = []
+    d = a
+    while d < b:
+        lista.append(d)
+        d += c
+    return lista
+
+
+'''def cuadranteLateral(x):
     if x >= 0:
         cotainf = int(x)
         cotamedia = int(x) + 0.5
@@ -48,8 +57,30 @@ def cuadranteVertical(x):
         elif -3*n + 2 >= x >= -3*n + 0.5:
             return [-3*n + 2, -3*n + 0.5]
 
+
 d = cuadranteVertical(-3)
 print(d)
 c = cuadranteLateral(1.4)
-print(c)
+print(c)'''
+
+
+def hacerMalla():
+    malla = []
+    for i in rangef(2.5, 8.0, 1.5):
+        for j in rangef(3.5, 5.1, 0.5):
+            malla.append([i, j])
+        for j in rangef(-5, -3.4, 0.5):
+            malla.append([i, j])
+    for i in rangef(-7, -2.4, 1.5):
+        for j in rangef(3.5, 5.1, 0.5):
+            malla.append([i, j])
+        for j in rangef(-5, -3.4, 0.5):
+            malla.append([i, j])
+    return malla
+
+
+m = hacerMalla()
+print(len(m))
+print(m)
+
 
