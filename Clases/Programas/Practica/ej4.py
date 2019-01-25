@@ -68,14 +68,14 @@ def hacerMalla():  # hace la malla con listas anidadas
     malla = []
     for i in rangef(2.5, 8.0, 1.5):
         for j in rangef(3.5, 5.1, 0.5):
-            malla.append([i, j])
+            malla.append([j, i])
         for j in rangef(-5, -3.4, 0.5):
-            malla.append([i, j])
+            malla.append([j, i])
     for i in rangef(-7, -2.4, 1.5):
         for j in rangef(3.5, 5.1, 0.5):
-            malla.append([i, j])
+            malla.append([j, i])
         for j in rangef(-5, -3.4, 0.5):
-            malla.append([i, j])
+            malla.append([j, i])
     return malla
 
 

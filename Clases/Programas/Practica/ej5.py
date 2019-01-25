@@ -8,4 +8,4 @@ def f(x, y):  # hacemos la función de la silla de montar
 
 malla = hacerMalla()
 for punto in malla:  # calcula la función en cada punto de la malla
-    print("El valor de f(x,y) en el punto {} es {:.3f}".format(punto, f(punto[1], punto[0])))
+    print("El valor de f(x,y) en el punto {} es {:.3f}".format(punto, f(punto[0], punto[1])))
