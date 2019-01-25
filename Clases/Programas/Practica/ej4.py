@@ -1,4 +1,4 @@
-def rangef(a, b, c):
+def rangef(a, b, c):  # genera rangos con saltos flotantes
     lista = []
     d = a
     while d < b:
@@ -64,7 +64,7 @@ c = cuadranteLateral(1.4)
 print(c)'''
 
 
-def hacerMalla():
+def hacerMalla():  # hace la malla con listas anidadas
     malla = []
     for i in rangef(2.5, 8.0, 1.5):
         for j in rangef(3.5, 5.1, 0.5):

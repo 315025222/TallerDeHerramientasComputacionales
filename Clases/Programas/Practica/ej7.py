@@ -1,7 +1,7 @@
 from math import sin, pi
 
 
-def H_eps(x, eps=0.01):
+def H_eps(x, eps=0.01):  # definimos la función epsilon
     if x < -eps:
         return 0
     elif -eps <= x <= eps:
@@ -11,7 +11,7 @@ def H_eps(x, eps=0.01):
         return 1
 
 
-def prueba_H_eps():
+def prueba_H_eps():  # hacemos la función de pruebas
     x = -5
     print("Cuando x < -eps el resultado es {}\n".format(H_eps(x)))
     x = -0.01
@@ -24,4 +24,4 @@ def prueba_H_eps():
     print("Cuando x > eps el resultado es {}".format(H_eps(x)))
 
 
-prueba_H_eps()
+prueba_H_eps()  # ejecutamos la pruebas
