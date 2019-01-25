@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  25 JAN 2019 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  25 JAN 2019 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Clase14.tex
-(./Clase14.tex
+**Cuestionario05.tex
+(./Cuestionario05.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -474,11 +474,11 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box28
 \enitdp@description=\count102
 )
-(./Clase14.aux
+(./Cuestionario05.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
-\openout1 = `Clase14.aux'.
+\openout1 = `Cuestionario05.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -557,29 +557,25 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Clase14.aux
+(./Cuestionario05.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 3961 strings out of 492995
- 51392 string characters out of 6132704
- 128802 words of memory out of 5000000
- 7474 multiletter control sequences out of 15000+600000
- 6215 words of font info for 23 fonts, out of 8000000 for 9000
+ 3966 strings out of 492995
+ 51522 string characters out of 6132704
+ 128805 words of memory out of 5000000
+ 7479 multiletter control sequences out of 15000+600000
+ 5908 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,35p,445b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,6n,35p,440b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Clase14.pdf (1 page, 35330 bytes).
+Output written on Cuestionario05.pdf (1 page, 33536 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream

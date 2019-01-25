@@ -18,27 +18,22 @@ while i < 11:
 
 i = 1
 while i < 11:
-    mult = i*7
-    print("7 por {} es igual a {}".format(i, mult))
+    mult = i*4
+    print("4 por {} es igual a {}".format(i, mult))
     i += 1
 
 i = 1
 while i < 11:
-    mult = i*7
-    print("7 por {} es igual a {}".format(i, mult))
+    mult = i*5
+    print("5 por {} es igual a {}".format(i, mult))
     i += 1
 
 i = 1
 while i < 11:
-    mult = i*7
-    print("7 por {} es igual a {}".format(i, mult))
+    mult = i*6
+    print("6 por {} es igual a {}".format(i, mult))
     i += 1
-i = 1
 
-while i < 11:
-    mult = i*7
-    print("7 por {} es igual a {}".format(i, mult))
-    i += 1
 i = 1
 
 while i < 11:
@@ -48,14 +43,20 @@ while i < 11:
 i = 1
 
 while i < 11:
-    mult = i*7
-    print("7 por {} es igual a {}".format(i, mult))
+    mult = i*8
+    print("8 por {} es igual a {}".format(i, mult))
     i += 1
 i = 1
 
 while i < 11:
-    mult = i*7
-    print("7 por {} es igual a {}".format(i, mult))
+    mult = i*9
+    print("9 por {} es igual a {}".format(i, mult))
+    i += 1
+i = 1
+
+while i < 11:
+    mult = i*10
+    print("10 por {} es igual a {}".format(i, mult))
     i += 1
 
 
