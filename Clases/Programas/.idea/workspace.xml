@@ -29,23 +29,23 @@
         <entry file="file://$PROJECT_DIR$/Practica/ej4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ej5.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ej5.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Practica/ej5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ej6.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ej6.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Practica/ej6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -210,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ej4">
+  <component name="RunManager" selected="Python.ej5">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -309,23 +309,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="ej3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practica" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Programas" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practica/ej3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="ej4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,6 +322,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Programas" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practica/ej4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="ej5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practica" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Programas" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practica/ej5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,18 +379,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.ej2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ej3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ej6" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ej7" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ej4" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ej6" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ej7" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ej4" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ej5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ej4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ej7" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ej6" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ej2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ej3" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ej5" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ej4" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ej7" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ej6" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ej2" />
       </list>
     </recent_temporary>
   </component>
@@ -719,14 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Practica/ej6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practica/ej7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -754,15 +746,23 @@
     <entry file="file://$PROJECT_DIR$/Practica/ej4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Practica/ej5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practica/ej6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -79,8 +79,6 @@ def hacerMalla():
     return malla
 
 
-m = hacerMalla()
+'''m = hacerMalla()
 print(len(m))
-print(m)
-
-
+print(m)'''
