@@ -1,4 +1,4 @@
-import Tarea04Listas.Problema03 as p3
+import Tarea05.Problema03 as p3
 lista = []
 for i in range(0, 11):
     lista.append(i)
