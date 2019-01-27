@@ -1,5 +1,5 @@
 import numpy
-from Tarea07.problema05 import resolver
+from pythonFacil.problema05 import resolver
 
 labEnfrente = [[True, True, True], [False, False, False], [True, True, True]]
 labAbajo = [[True, True, True, True], [False, False, False, True], [True, True, False, True]]

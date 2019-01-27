@@ -1,0 +1,17 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\title{Problema 06}
+\author{Carlos Emiliano Sandoval Amador \\ 315025222}
+\date{24 de enero de 2019}
+\begin{document}
+	\maketitle
+	\begin{center}
+		\textbf{\large Torres de Hanoi.}
+	\end{center}
+	Investigué un poco sobre la solución de las torres de Hanoi y encontré el seudocódigo de esta en \textcolor{blue}{https://www.youtube.com/watch?v=lilBGvaOSy8}. Una vez hecho el código en python intenté poner prints hasta que encontré una combinación que me mostraba todos los pasos para resolver el problema con un determinado número de discos, sin embargo la solución recursiva cambia el orden de las tores, por lo que al imprimir algunos pasos eran difíciles de entender, así que le puse el string "o" a la torre en la que empiezas (torre origen), luego a la de enmedio "a" (torre auxiliar) y a la última "d" (torre destino), de esta forma pude distinguir las torres sin embargo los pasos seguían siendo difíciles de seguir por lo que definí una función printbien() que imprimiera lad torres en orden siempre y con los strings ya sabía que torre era que torre así que solo dividí el problema en todos los casos posibles y complemente el string que qeuría imprimir usando format. El resultado es satisfactorio.
+\end{document}

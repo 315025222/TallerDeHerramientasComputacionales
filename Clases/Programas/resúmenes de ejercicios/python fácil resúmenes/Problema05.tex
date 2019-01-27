@@ -1,0 +1,17 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\title{Problema 05}
+\author{Carlos Emiliano Sandoval Amador \\ 315025222}
+\date{24 de enero de 2019}
+\begin{document}
+	\maketitle
+	\begin{center}
+		\textbf{\large El laberinto}
+	\end{center}
+	Para este seguí el consejo del profesor y primero programé el algoritmo para un laberinto en línea recta, luego a la derecha, a la izquierda y finalmente en el mismo lado en el que se encuentra la entrada del laberinto. Para que el algoritmo sea recursivo lo dividí en dos casos, en el primero ya está parado en la salida y en el segundo se mueve arriba, abajo, a la izquierda o a la derecha si es que no hay un obstáculo. La función recibe el laberinto, el punto de inicio del labeinto la salida y una lista vacía llamada registro. Puse la lista registro como parámetro porque si la declaro dentro de la definición como una lista vacía, la lista se vaciará con cada paso de recursión cosa que no quiero que suceda. \\ \\ En el segundo caso primero te mueves a la derecha, sino abajo, sino arriba y sino a la izquierda, esto representa un problema cuando el personaje quiere avanzar a la izquierda pero tiene disponible avanzar a la derecha a pesar de que de ahí es de donde viene. Aquí es donde entra registro, guarda los bloques en los que ya estuvo el personaje y al hacer el paso de recursión, se mete el nuevo registro como parámetro, de esta forma se guarda la información y el personaje no regresa a dónde ya estuvo. El resultado de la función es el camino que siguió el personaje y el bloque en el que está la salida.
+\end{document}

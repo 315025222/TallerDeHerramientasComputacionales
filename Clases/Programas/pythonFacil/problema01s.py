@@ -1,4 +1,4 @@
-from Tarea07.problema01 import listasIguales
+from pythonFacil.problema01 import listasIguales
 d = [8, 2, 6]
 e = [7, 8, 2, 6, 9]
 print(listasIguales(d, e))

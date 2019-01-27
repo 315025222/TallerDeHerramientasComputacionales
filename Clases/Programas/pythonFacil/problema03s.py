@@ -1,4 +1,4 @@
-from Tarea07.problema03 import primo
+from pythonFacil.problema03 import primo
 print(primo(1))
 print(primo(2))
 print(primo(3))

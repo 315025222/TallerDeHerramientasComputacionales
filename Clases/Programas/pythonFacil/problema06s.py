@@ -1,4 +1,4 @@
-from Tarea07.problema06 import hanoi
+from pythonFacil.problema06 import hanoi
 num = 4
 torre = ["o", 4, 3, 2, 1]
 desti = ["d"]
